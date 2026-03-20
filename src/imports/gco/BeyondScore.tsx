@@ -1,4 +1,7 @@
 import React from "react";
+import imgChild from "../../assets/beyond-child.png";
+import imgPink from "../../assets/beyond-pink.png";
+import imgCode from "../../assets/beyond-code.png";
 
 export default function BeyondScoreClone() {
   const reportItems = [
@@ -151,6 +154,7 @@ export default function BeyondScoreClone() {
               </div>
 
               <div style={{ height: "135px", background: "#151515", borderRadius: "15px", marginBottom: "15px", position: "relative", overflow: "hidden" }}>
+                  <img src={imgChild} alt="Cognitive strengths" style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", inset: 0, opacity: 0.8 }} />
                   {/* Subtle placeholder simulating the grayscale child image */}
                   <div style={{ position: "absolute", inset: 0, backgroundImage: 'radial-gradient(circle at 40% 40%, rgba(60,60,60,0.4) 0%, rgba(20,20,20,0) 80%), linear-gradient(to bottom, rgba(30,30,30,0), #111 90%)' }} />
               </div>
@@ -205,13 +209,9 @@ export default function BeyondScoreClone() {
                 Strategic recommendations tailored to your unique intelligence profile, underpinned by blind spot insights.
               </p>
               
-              {/* Vibrant diagonal pills representation */}
+              {/* Vibrant diagonal pills representation now replaced by actual image */}
               <div style={{ height: "150px", background: "#0c0c0e", borderRadius: "15px", position: "relative", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                <div style={{ display: "flex", flexDirection: "column", gap: "10px", transform: "rotate(-15deg)", width: "100%", padding: "0 10px" }}>
-                  <div style={{ alignSelf: "flex-end", width: "95%", height: "24px", background: "linear-gradient(90deg, #3b82f6, #a855f7)", borderRadius: "15px", boxShadow: "0 0 25px rgba(59,130,246,0.5)" }} />
-                  <div style={{ alignSelf: "center", width: "95%", height: "24px", background: "linear-gradient(90deg, #d946ef, #fb7185)", borderRadius: "15px", boxShadow: "0 0 25px rgba(217,70,239,0.5)" }} />
-                  <div style={{ alignSelf: "flex-start", width: "70%", height: "24px", background: "linear-gradient(90deg, #f43f5e, #f97316)", borderRadius: "15px", boxShadow: "0 0 25px rgba(244,63,94,0.5)", marginLeft: "10%" }} />
-                </div>
+                <img src={imgPink} alt="Growth Pathways" style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", inset: 0 }} />
               </div>
             </div>
 
@@ -244,6 +244,7 @@ export default function BeyondScoreClone() {
 
               {/* Big Purple drawing area */}
               <div style={{ height: "175px", width: "100%", background: "#0e0e12", borderRadius: "20px", marginBottom: "20px", position: "relative", border: "1px solid #1f1f2a", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden" }}>
+                  <img src={imgCode} alt="Code Editor" style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", inset: 0, opacity: 0.5 }} />
                   {/* code/screen faint background effect */}
                   <div style={{ position: "absolute", inset: 0, backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0), #000 100%), repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.02) 2px, rgba(255,255,255,0.02) 4px)' }}></div>
                   
